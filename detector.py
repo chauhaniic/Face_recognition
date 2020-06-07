@@ -27,8 +27,6 @@ while True:
         cv2.rectangle(im,(x-50,y-50),(x+w+50,y+h+50),(225,0,0),2)
         if(nbr_predicted==1):
              nbr_predicted='Baba'
-        elif(nbr_predicted==2 or nbr_predicted==5):
-             nbr_predicted='Pinki'
         elif(nbr_predicted==3):
              nbr_predicted='Sandy'
         elif(nbr_predicted==4):
